@@ -11,7 +11,8 @@ export default {
       },
       colors: {
         'theme-red': '#D02030',
-        'price-green': '#16E024'
+        'price-green': '#16E024',
+        'dark-gray': '#404040'
       }
     },
   },

@@ -6,8 +6,10 @@ import { useSearchContext } from "../App";
 export default function Home() {
   const { search } = useSearchContext();
 
+  const produtoLowerCase = search.toLowerCase();
+
   const produtoFiltrado = productData.filter((produto) =>
-    produto.productName.includes(search)
+    produto.productName.toLowerCase().includes(produtoLowerCase)
   );
 
   return (

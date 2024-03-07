@@ -15,7 +15,6 @@ import AppLayout from "./AppLayout";
 import ProductViewMore from "./pages/ProductViewMore";
 import Navbar from "./components/Navbar";
 
-// Criar um contexto para o estado global
 const SearchContext = createContext();
 
 export const useSearchContext = () => {

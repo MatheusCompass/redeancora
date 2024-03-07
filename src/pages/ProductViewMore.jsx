@@ -8,6 +8,7 @@ import { AiOutlineTwitter } from "react-icons/ai";
 import { AiFillFacebook } from "react-icons/ai";
 import { AiFillInstagram } from "react-icons/ai";
 import { SlMagnifier } from "react-icons/sl";
+
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Navbar from "../components/Navbar";
