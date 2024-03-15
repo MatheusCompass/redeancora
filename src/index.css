@@ -24,7 +24,7 @@ body {
 
 .products-list {
   display: grid;
-  grid-template-columns: 292px 292px 292px 292px ;
+  grid-template-columns: 292px 292px 292px ;
   /* grid-template-columns: 292px 292px 292px ; */
   /* grid-template-columns: 1fr 1fr; */
   gap: 30px;
